@@ -1,0 +1,24 @@
+.navCity__group {
+  position: absolute;
+  left: 20px;
+  top: 0;
+  display: flex;
+  align-items: center;
+  height: 100vh;
+  .navLink__block {
+    width: 1px;
+    height: 468px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: white;
+    a{
+        width: 18px;
+        height: 18px;
+        border-radius: 20px;
+        background-color: white;
+        position: relative;
+        right: 9px;
+    }
+  }
+}

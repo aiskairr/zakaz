@@ -1,0 +1,42 @@
+.header__container__group {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 18%;
+  .nav__group {
+    width: 40%;
+    a {
+      font-style: normal;
+      font-weight: 700;
+      font-size: 16px;
+      line-height: 19px;
+      text-align: center;
+      color: #ffffff;
+      text-decoration: none;
+    }
+  }
+  .profile__group {
+    width: 16%;
+    button {
+      background: none;
+      border: none;
+      color: #ffffff;
+      font-style: normal;
+      font-weight: 700;
+      font-size: 16px;
+      line-height: 19px;
+      width: 90px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      height: 100%;
+      cursor: pointer;
+    }
+  }
+}
+.display__content {
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}

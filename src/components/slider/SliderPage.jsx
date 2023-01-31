@@ -9,7 +9,6 @@ function SampleNextArrow(props) {
       className={className}
       style={{
         ...style,
-        display: "block",
         background: "none",
         position: "absolute",
         top: "205px",
@@ -40,7 +39,6 @@ function SamplePrevArrow(props) {
       className={className}
       style={{
         ...style,
-        display: "block",
         backgroundImage: `url("/public/images/sliderArrow.svg"))`,
         borderRadius: "20px",
         position: "absolute",

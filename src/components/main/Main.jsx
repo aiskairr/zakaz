@@ -3,7 +3,7 @@ import scss from "./Main.module.scss";
 
 function Main() {
   return (
-    <div className={scss.main__content + " " + "container"}>
+    <div className={`${scss.main__content } container`}>
       <div className={scss.left__content}>
         <h1>osh</h1>
         <p>

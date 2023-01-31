@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 function Header() {
   return (
-    <div className={scss.header__container__group + " " + "container"}>
+    <div className={`${scss.header__container__group } container`}>
       <Link to="/">
         <img src="./images/logo.svg" alt="logo" />
       </Link>
